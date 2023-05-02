@@ -1,0 +1,39 @@
+// IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;700&display=swap');
+
+
+// --- VARIABLES  ---
+
+$primary-color: #15182B;
+$primary-color-var: #053d7c;
+$second-color: #F0A202; 
+$second-color-var: #cf8b02; 
+$white-var:  rgb(226, 224, 224);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0rem;
+    font-family: 'Noto Sans', sans-serif;
+    background: rgb(74,84,150);
+    background: linear-gradient(90deg, rgba(74,84,150,1) 0%, rgba(53,61,108,1) 18%, rgba(37,43,76,1) 42%, rgba(21,24,43,1) 100%);
+}
+
+// ============= SCROLL =============
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #101322;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0D6EFD;
+    border-radius: 2rem;
+}
