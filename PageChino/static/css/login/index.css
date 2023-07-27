@@ -67,6 +67,9 @@ body {
   transform: translateY(-12px) scale(0.7);
   transform-origin: left top;
   color: #F0A202;
+
+  /* user-select: none;
+  cursor: default; */
 }
 .form .container .group .label {
   color: rgba(182, 217, 255, 0.4745098039);
@@ -76,6 +79,9 @@ body {
   left: 5px;
   transform: translateY(10px);
   transition: transform 0.5s, color 0.3s;
+
+  /* user-select: none;
+  cursor: default; */
 }
 .form .container .btn-submit {
   width: 100%;
