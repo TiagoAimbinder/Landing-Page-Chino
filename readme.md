@@ -6,11 +6,12 @@
   * virtualenv o virtualenvwrapper
 * Instalar requirements.txt 
   * `pip install -r requirements.txt`
+* Migrar datos
+  * `python manage.py migrate`
+  * `python manage.py makemigrations`
 * Correr pagina web
   * `python manage.py runserver`
 
 ## To Do
 
-- Login ( Modelo usuario )
-- Base de Datos
 - Modelo usuario con datos de casino
